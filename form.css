@@ -1,0 +1,106 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("./login.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 770px;
+}
+
+
+
+.form{  
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgb(101, 186, 128)50% rgba(31, 148, 91, 0.667)50%);
+    background-color: gray;
+    position: absolute;
+    top: -20px;
+    right: 1100px;
+    transform: translate(20%,65%);
+    border-radius: 10px;
+    padding: 25px;
+}
+.text{
+    padding: 30px;
+    width: 300px;
+    margin-left: 150px;
+}
+
+.form input{
+    width: 250px;
+    height: 35px;
+    background: transparent;
+    border: 3px solid darkorange;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica;
+
+}
+.form :focus{
+    outline: none
+}
+::placeholder{
+    color:white;
+    font-family: Arial;
+}
+.btn{
+    width: 250px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover{
+    background: white;
+    color: orange;
+}
+.btn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+.form .pra{ 
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.form .pra a{
+    text-decoration: none;
+    color: blue;
+} 
+.link{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+
